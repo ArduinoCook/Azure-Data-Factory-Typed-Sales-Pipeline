@@ -25,3 +25,17 @@ P02_Customers.csv, -> Azure Blob Storage, -> Azure Data Factory, -> Azure SQL Da
 ![ADF pipeline source](P02%20Azure%20Data%20Pipelines%20Screen%20Prints/02-P02-ADF-Pipeline-Source.png)
 
 ![ADF data source](P02%20Azure%20Data%20Pipelines%20Screen%20Prints/03-P02-Azure-SQL-Customer-Data.png)
+
+## What I learned
+
+* How to connect Blob Storage to ADF and use a copy activity.
+* Schema and mapping basics for CSV to SQL.
+* Importance of exact file naming in documentation.
+* Mapping to proper SQL data types.
+* Using a primary key to prevent duplicates.
+* Troubleshooting primary key errors, and using truncate to clear test data.
+* Validate, debug, and publish.
+
+## Project files
+
+* [P02_Customer.csv](P02_Customers.csv)
